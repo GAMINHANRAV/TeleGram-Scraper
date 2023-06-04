@@ -35,20 +35,20 @@
 
 * Install requierments
 
-`$ python3 setup.py -i`
+`$ python setup.py -i`
 
 * setup configration file ( apiID, apiHASH )
 
-`$ python3 setup.py -c`
+`$ python setup.py -c`
 
 * To Genrate User Data
 
-`$ python3 scraper.py`
+`$ python scraper.py`
 
 * ( members.csv is default if you changed name use it )
 * Send Bulk sms To Collected Data 
 
-`$ python3 smsbot.py members.csv`
+`$ python add2group.py members.csv`
 
 * Update Tool
 
